@@ -43,7 +43,7 @@ int main()
 	{
 		std::cout << M[i] << " " << first[i] << " " << min[i] << std::endl;
 	}
-	delete M;
-	delete first;
-	delete min;
+	delete[] M;
+	delete[] first;
+	delete[] min;
 }
